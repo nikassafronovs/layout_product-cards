@@ -1,0 +1,126 @@
+.page {
+  color: #060b35;
+  margin: 0;
+  font-family: Roboto, serif;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.card__name {
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  display: block;
+}
+
+.card__code {
+  text-align: left;
+  color: #616070;
+  margin-bottom: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  display: block;
+}
+
+.card__stars {
+  height: 16px;
+  display: flex;
+}
+
+.card__price {
+  justify-content: space-between;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__reviews {
+  justify-content: space-between;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.card__reviews-title {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__button {
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+}
+
+.card__button-text {
+  margin: 0;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.card__image {
+  padding-inline: 3px;
+}
+
+.image__img {
+  width: 160px;
+  height: 134px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.stars {
+  height: 16px;
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.stars__star:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.price__label {
+  color: #616070;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.price__value {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
